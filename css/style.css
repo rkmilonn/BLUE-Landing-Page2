@@ -1,0 +1,175 @@
+/*Global CSS start*/
+body{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+/*Global CSS end*/
+/*Header section CSS start*/
+header{
+	background-color: #121B2A;
+	padding: 10px 0;
+
+
+}
+.warraper {
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	position: relative;
+
+
+}
+
+.logo {
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu {
+	width: 80%;
+	float: right;
+	margin-top: 40px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0px 25px;
+	display: inline-block;
+	transition: 0.6s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+	cursor: pointer;
+}
+.btn-button{
+	width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+/*Header section CSS end*/
+
+/*Banner section CSS start*/
+.banner{
+	background: url(../images/bg.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+	
+.banner_contant{
+	width: 50%;
+	margin-top: 300px;
+	margin-bottom: 80px;
+	
+ 	
+ }
+.banner_contant h1{
+	font-family: sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0;
+
+}
+.banner_contant h2{
+	font-family: sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #0078BD;
+    text-transform: capitalize;
+    margin: 0 0;
+}
+.banner_contant p{
+	line-height: 25px;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0
+}
+.banner_contant button{
+	width: 200px;
+    height: 60px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    color: #5A5A5A;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: 0.6s;
+}
+.banner_contant button:focus{
+	outline: 0;
+}
+.banner_contant button:hover{
+	background-color: #0078BD;
+	color: #fff;
+	cursor: pointer;
+
+}
+/*Banner section CSS end*/
+
+/*Portfolio section CSS start*/
+.portfolio{
+	background-color: #121B2C;
+}
+.contant{
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	margin-top: 70px;
+	padding: 0 60px;
+}
+.contant:first-child{
+	padding-left: 0;
+}
+.contant, .img1{}
+.contant img{
+	float: left;
+}
+.heading{
+	padding: 10px 0 0 10px;
+    float: left;
+}
+.heading h1{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: #fff;
+	margin: 0 0;    
+}
+.heading h2{
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #0078BD;
+    margin: 0 0; 
+}
+.contant p{
+	margin-top: 50px;
+	color: #fff;
+	padding-top: 60px;
+}
+/*Portfolio section CSS end*/
